@@ -1,6 +1,7 @@
 Searching\MetaBinarySearch.class
 Sorting\PigeonHoleSort.class
 Sorting\BasicSorting.class
+Sorting\CocktailSort.class
 Searching\TernarySearch.class
 Sorting\BucketSort.class
 Sorting\ShellSort.class
