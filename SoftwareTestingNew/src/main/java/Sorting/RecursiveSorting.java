@@ -113,4 +113,36 @@ public class RecursiveSorting {
     public void mergeSort(int[] input) {
         mergeSort(input, 0, input.length - 1);
     }
+
+
+    static void compAndSwap(int a[], int i, int j, int dir) {
+        if ((dir == 1 && a[i] > a[j]) || (dir == 0 && a[i] < a[j])) {
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
+    }
+
+    static void bitonicMerge(int a[], int low, int cnt, int dir) {
+        if (cnt > 1) {
+            int k = cnt / 2;
+            for (int i = low; i < low + k; i++)
+                compAndSwap(a, i, i + k, dir);
+            bitonicMerge(a, low, k, dir);
+            bitonicMerge(a, low + k, k, dir);
+        }
+    }
+
+    static void bitonicSort(int a[], int low, int cnt, int dir) {
+        if (cnt > 1) {
+            int k = cnt / 2;
+            bitonicSort(a, low, k, 1);
+            bitonicSort(a, low + k, k, 0);
+            bitonicMerge(a, low, cnt, dir);
+        }
+    }
+
+    public void sort(int a[], int N, int up) {
+        bitonicSort(a, 0, N, up);
+    }
 }

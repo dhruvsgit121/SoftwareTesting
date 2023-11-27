@@ -96,4 +96,50 @@ public class RecursiveSortingTest {
 
     //Merge Sort Test Cases Ends Here...
 
+
+
+    //Recursive Sort Test Cases Starts Here...
+    @Test
+    public void testSortAscending() {
+        int[] arr = {3, 7, 4, 8, 6, 2, 1, 5};
+        int[] expected = {1, 2, 3, 4, 5, 6, 7, 8};
+
+        sorting.sort(arr, arr.length, 1);
+
+        assertArrayEquals(expected, arr);
+    }
+
+    @Test
+    public void testSortDescending() {
+        int[] arr = {3, 7, 4, 8, 6, 2, 1, 5};
+        int[] expected = {8, 7, 6, 5, 4, 3, 2, 1};
+        sorting.sort(arr, arr.length, 0);
+        assertArrayEquals(expected, arr);
+    }
+
+    @Test
+    public void testSortEmptyArray() {
+        int[] arr = {};
+        int[] expected = {};
+        sorting.sort(arr, arr.length, 1);
+        assertArrayEquals(expected, arr);
+    }
+
+    @Test
+    public void testSortSingleElementArray() {
+        int[] arr = {5};
+        int[] expected = {5};
+        sorting.sort(arr, arr.length, 1);
+        assertArrayEquals(expected, arr);
+    }
+
+    @Test
+    public void testSortAlreadySortedAscending() {
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        int[] expected = {1, 2, 3, 4, 5, 6};
+        sorting.sort(arr, arr.length, 1);
+        assertArrayEquals(expected, arr);
+    }
+
+    //Recursive Sort Test Cases Ends Here...
 }

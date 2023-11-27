@@ -1,4 +1,5 @@
 org\example\SearchingTest.class
+org\example\ThreeWayMergeSortTest.class
 org\example\CocktailSortTest.class
 org\example\MetaBinarySearchTest.class
 org\example\FibonnaciSearchTest.class

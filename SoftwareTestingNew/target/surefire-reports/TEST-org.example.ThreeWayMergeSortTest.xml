@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.CycleSortTest" time="0.001" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.ThreeWayMergeSortTest" time="0.002" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,7 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testCycleSort" classname="org.example.CycleSortTest" time="0.0"/>
-  <testcase name="testCycleSortSecond" classname="org.example.CycleSortTest" time="0.0"/>
-  <testcase name="testCycleSortFrist" classname="org.example.CycleSortTest" time="0.0"/>
+  <testcase name="testMergeSort3Way" classname="org.example.ThreeWayMergeSortTest" time="0.0"/>
+  <testcase name="testMergeSort3WayWithEmptyArray" classname="org.example.ThreeWayMergeSortTest" time="0.0"/>
+  <testcase name="testMergeSort3WayWithDuplicateElements" classname="org.example.ThreeWayMergeSortTest" time="0.0"/>
+  <testcase name="testMergeSort3WayWithSingleElement" classname="org.example.ThreeWayMergeSortTest" time="0.0"/>
 </testsuite>
