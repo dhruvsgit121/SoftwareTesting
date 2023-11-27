@@ -1,12 +1,11 @@
 package Sorting;
 
-public class RecursiveSorting {
+//import ;
 
-    public void swap(int[] input, int i, int j) {
-        int temp = input[i];
-        input[i] = input[j];
-        input[j] = temp;
-    }
+import org.example.SortUtilities;
+
+public class RecursiveSorting {
+    SortUtilities utilities = new SortUtilities();
 
     public int count(int[] input, int start, int end) {
         int count = 0;
@@ -24,7 +23,7 @@ public class RecursiveSorting {
         int c = count(input, start, end);
 
         int pivot = start + c;
-        swap(input, start, pivot);
+        utilities.swap(input, start, pivot);
 
         int i = start;
         int j = end;
@@ -38,7 +37,7 @@ public class RecursiveSorting {
                 j--;
             }
 
-            swap(input, i, j);
+            utilities.swap(input, i, j);
             i++;
             j--;
         }
