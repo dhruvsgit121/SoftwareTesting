@@ -6,6 +6,7 @@ Sorting\ThreeWayMergeSort.class
 Searching\TernarySearch.class
 Sorting\BucketSort.class
 Sorting\ShellSort.class
+Sorting\StoogeSort.class
 Searching\FibonnaciSearch.class
 Searching\JumpSearch.class
 Sorting\CombSort.class

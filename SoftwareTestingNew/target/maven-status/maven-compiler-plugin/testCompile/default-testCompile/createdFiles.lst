@@ -14,3 +14,4 @@ org\example\CombSortTest.class
 org\example\SentinelSearchTest.class
 org\example\CycleSortTest.class
 org\example\JumpSearchTest.class
+org\example\StoogeSortTest.class
