@@ -1,6 +1,7 @@
-org\example\AppTest.class
 org\example\RecursiveSortingTest.class
 org\example\PigeonHoleSortTest.class
 org\example\SearchingTest.class
 org\example\SortingTest.class
 org\example\BingoSortTest.class
+org\example\AppTest.class
+org\example\SentinelSearchTest.class

@@ -5,6 +5,7 @@ Sorting\BucketSort.class
 Sorting\HeapSort.class
 Sorting\RadixSort.class
 Sorting\RecursiveSorting.class
+Searching\SentinelSearch.class
 org\example\App.class
 Searching\Searching.class
 Sorting\ShellSort.class

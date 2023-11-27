@@ -22,7 +22,6 @@ public class RecursiveSorting {
     public int partition(int[] input, int start, int end) {
         int size = end - start + 1;
         int c = count(input, start, end);
-        // System.out.println(c);
 
         int pivot = start + c;
         swap(input, start, pivot);
@@ -60,9 +59,6 @@ public class RecursiveSorting {
     public void quickSort(int[] input) {
         quickSort(input, 0, input.length - 1);
     }
-
-
-    //Merge Sort Starts Here...
 
     public void merge(int[] input, int start, int mid, int end) {
         int i, j, k;
@@ -117,5 +113,4 @@ public class RecursiveSorting {
     public void mergeSort(int[] input) {
         mergeSort(input, 0, input.length - 1);
     }
-    //Merge Sort Ends Here...
 }

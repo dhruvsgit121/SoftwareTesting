@@ -35,7 +35,6 @@ public class BasicSorting {
         int n = input.length;
 
         for (int i = 0; i < n - 1; i++) {
-            // Find the minimum element in the remaining unsorted array
             int min = input[i];
             int minIndex = i;
 
@@ -46,7 +45,6 @@ public class BasicSorting {
                 }
             }
 
-            // Swap the found minimum element with the first element
             int temp = input[i];
             input[i] = input[minIndex];
             input[minIndex] = temp;

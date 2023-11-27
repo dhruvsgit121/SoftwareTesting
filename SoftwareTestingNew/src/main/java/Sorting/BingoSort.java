@@ -12,7 +12,6 @@ public class BingoSort {
         }
     }
 
-    // Function to sort the array
     public static void bingoSort(List<Integer> vec, int n) {
         int[] bingo = {vec.get(0)};
         int[] nextBingo = {vec.get(0)};
@@ -21,17 +20,12 @@ public class BingoSort {
         int nextElePos = 0;
 
         while (bingo[0] < nextBingo[0]) {
-            // Will keep the track of the element position to
-            // be shifted to their correct position
             int startPos = nextElePos;
             for (int i = startPos; i < n; i++) {
                 if (vec.get(i).equals(bingo[0])) {
                     Collections.swap(vec, i, nextElePos);
                     nextElePos = nextElePos + 1;
-                }
-                // Here we are finding the next Bingo Element
-                // for the next pass
-                else if (vec.get(i) < nextBingo[0])
+                } else if (vec.get(i) < nextBingo[0])
                     nextBingo[0] = vec.get(i);
             }
             bingo[0] = nextBingo[0];

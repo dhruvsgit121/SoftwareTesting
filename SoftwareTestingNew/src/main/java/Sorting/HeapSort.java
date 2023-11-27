@@ -1,7 +1,6 @@
 package Sorting;
 
 public class HeapSort {
-
     public void heapSort(int[] arr, int n) {
         for (int i = 1; i < n; i++) {
             int childIndex = i;

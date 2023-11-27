@@ -1,4 +1,5 @@
 package Searching;
+
 public class Searching {
     public int binarySearch(int[] input, int val) {
         int n = input.length;
