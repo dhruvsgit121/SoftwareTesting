@@ -1,12 +1,15 @@
+Searching\MetaBinarySearch.class
 Sorting\PigeonHoleSort.class
 Sorting\BasicSorting.class
-Sorting\BingoSort.class
+Searching\TernarySearch.class
 Sorting\BucketSort.class
+Sorting\ShellSort.class
+Searching\JumpSearch.class
+Sorting\BingoSort.class
 Sorting\HeapSort.class
 Sorting\RadixSort.class
 Sorting\RecursiveSorting.class
 Searching\SentinelSearch.class
 org\example\App.class
 Searching\Searching.class
-Sorting\ShellSort.class
 Sorting\CountSort.class
