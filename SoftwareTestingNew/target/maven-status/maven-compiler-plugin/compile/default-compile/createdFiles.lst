@@ -4,6 +4,7 @@ Sorting\BasicSorting.class
 Searching\TernarySearch.class
 Sorting\BucketSort.class
 Sorting\ShellSort.class
+Searching\FibonnaciSearch.class
 Searching\JumpSearch.class
 Sorting\BingoSort.class
 Sorting\HeapSort.class
