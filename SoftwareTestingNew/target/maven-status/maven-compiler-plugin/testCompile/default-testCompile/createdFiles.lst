@@ -8,4 +8,5 @@ org\example\BingoSortTest.class
 org\example\AppTest.class
 org\example\MetaBinarySearchTest.class
 org\example\SentinelSearchTest.class
+org\example\CycleSortTest.class
 org\example\JumpSearchTest.class
