@@ -42,5 +42,4 @@ public class CountSort {
         // Transfer the sorted items into the actual array
         System.arraycopy(output, 0, array, 0, size);
     }
-
 }

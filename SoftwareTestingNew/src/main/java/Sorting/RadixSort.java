@@ -1,7 +1,6 @@
 package Sorting;
 
 public class RadixSort {
-
     private int getMax(int[] array, int n) {
         int max = array[0];
         for (int i = 1; i < n; i++) {
@@ -53,5 +52,4 @@ public class RadixSort {
             countingSort(array, array.length, place);
         }
     }
-
 }

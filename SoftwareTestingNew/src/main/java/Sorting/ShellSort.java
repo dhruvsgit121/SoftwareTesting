@@ -1,7 +1,6 @@
 package Sorting;
 
 public class ShellSort {
-
     public void shellSort(int[] array) {
         int n = array.length;
 
@@ -17,5 +16,4 @@ public class ShellSort {
             }
         }
     }
-
 }
