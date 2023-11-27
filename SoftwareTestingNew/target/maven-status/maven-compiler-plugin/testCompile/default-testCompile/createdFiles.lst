@@ -10,6 +10,7 @@ org\example\SortingTest.class
 org\example\BingoSortTest.class
 org\example\AppTest.class
 org\example\OddEvenSortTest.class
+org\example\CombSortTest.class
 org\example\SentinelSearchTest.class
 org\example\CycleSortTest.class
 org\example\JumpSearchTest.class
